@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		96804EC61E843EE2003F661A /* RSSunAndMoonCalc.h in Headers */ = {isa = PBXBuildFile; fileRef = 96804EC41E843EE2003F661A /* RSSunAndMoonCalc.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		96804ECD1E843F12003F661A /* RSSunAndMoonCalc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96804ECC1E843F12003F661A /* RSSunAndMoonCalc.swift */; };
+		96E5C3BE1E84490800BDB73E /* LICENCE in Resources */ = {isa = PBXBuildFile; fileRef = 96E5C3BD1E84490800BDB73E /* LICENCE */; };
+		96E5C3C01E8449BC00BDB73E /* RSSunAndMoonCalc.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 96E5C3BF1E8449BC00BDB73E /* RSSunAndMoonCalc.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -16,6 +18,8 @@
 		96804EC41E843EE2003F661A /* RSSunAndMoonCalc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSSunAndMoonCalc.h; sourceTree = "<group>"; };
 		96804EC51E843EE2003F661A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		96804ECC1E843F12003F661A /* RSSunAndMoonCalc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RSSunAndMoonCalc.swift; sourceTree = "<group>"; };
+		96E5C3BD1E84490800BDB73E /* LICENCE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENCE; sourceTree = "<group>"; };
+		96E5C3BF1E8449BC00BDB73E /* RSSunAndMoonCalc.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = RSSunAndMoonCalc.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +52,8 @@
 		96804EC31E843EE2003F661A /* RSSunAndMoonCalc */ = {
 			isa = PBXGroup;
 			children = (
+				96E5C3BD1E84490800BDB73E /* LICENCE */,
+				96E5C3BF1E8449BC00BDB73E /* RSSunAndMoonCalc.podspec */,
 				96804EC41E843EE2003F661A /* RSSunAndMoonCalc.h */,
 				96804ECC1E843F12003F661A /* RSSunAndMoonCalc.swift */,
 				96804EC51E843EE2003F661A /* Info.plist */,
@@ -126,6 +132,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96E5C3C01E8449BC00BDB73E /* RSSunAndMoonCalc.podspec in Resources */,
+				96E5C3BE1E84490800BDB73E /* LICENCE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +310,7 @@
 				96804ECB1E843EE2003F661A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
