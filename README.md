@@ -4,7 +4,8 @@ Sun and Moon calculations in Swift 3.0 under MIT licence
 
 Download Demo project !
 
-Based on
+Based on :
+
 (JavaScript) https://github.com/mourner/suncalc/blob/master/suncalc.js
 
 (IDL) http://idlastro.gsfc.nasa.gov/ftp/pro/astro/mphase.pro
