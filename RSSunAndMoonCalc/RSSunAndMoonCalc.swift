@@ -287,7 +287,7 @@ struct RSSunAndMoonCalc {
         
         let fractionOfMoonIlluminated = (1 + cos(inc)) / 2
         
-        let phase = 0.5 + 0.5 * inc * (angle < 0 ? -1 : 1) / Double(M_PI)
+        let phase = 0.5 + 0.5 * inc * (angle < 0 ? -1 : 1) / .pi
         
         return (fractionOfMoonIlluminated, phase, angle)
     }

@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name             = 'RSSunAndMoonCalc'
-  s.version          = '0.1.0'
-  s.summary          = 'Sun and Moon calculations in Swift 3.'
+  s.version          = '0.2.0'
+  s.summary          = 'Sun and Moon calculations in Swift 4.'
  
   s.description      = <<-DESC
 Sunrise, sunset, Moon rise and set ; Sun position : Moon position and more!

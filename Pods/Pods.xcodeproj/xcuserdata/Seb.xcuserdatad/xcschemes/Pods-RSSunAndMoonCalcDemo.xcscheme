@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "96804EC01E843EE2003F661A"
-               BuildableName = "RSSunAndMoonCalc.framework"
-               BlueprintName = "RSSunAndMoonCalc"
-               ReferencedContainer = "container:RSSunAndMoonCalc.xcodeproj">
+               BlueprintIdentifier = "833EB791ECFBBBE3E675F7896F77B338"
+               BuildableName = "Pods_RSSunAndMoonCalcDemo.framework"
+               BlueprintName = "Pods-RSSunAndMoonCalcDemo"
+               ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -47,10 +47,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "96804EC01E843EE2003F661A"
-            BuildableName = "RSSunAndMoonCalc.framework"
-            BlueprintName = "RSSunAndMoonCalc"
-            ReferencedContainer = "container:RSSunAndMoonCalc.xcodeproj">
+            BlueprintIdentifier = "833EB791ECFBBBE3E675F7896F77B338"
+            BuildableName = "Pods_RSSunAndMoonCalcDemo.framework"
+            BlueprintName = "Pods-RSSunAndMoonCalcDemo"
+            ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -62,15 +62,6 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "96804EC01E843EE2003F661A"
-            BuildableName = "RSSunAndMoonCalc.framework"
-            BlueprintName = "RSSunAndMoonCalc"
-            ReferencedContainer = "container:RSSunAndMoonCalc.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

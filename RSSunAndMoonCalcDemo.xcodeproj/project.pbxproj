@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		10E59DF64A55CEA52C225F23 /* Pods_RSSunAndMoonCalcDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AB75E9FB0BFD3CC0A0A6101 /* Pods_RSSunAndMoonCalcDemo.framework */; };
 		96E5C3AC1E8441A800BDB73E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E5C3AB1E8441A800BDB73E /* AppDelegate.swift */; };
 		96E5C3AE1E8441A800BDB73E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E5C3AD1E8441A800BDB73E /* ViewController.swift */; };
 		96E5C3B11E8441A800BDB73E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96E5C3AF1E8441A800BDB73E /* Main.storyboard */; };
 		96E5C3B31E8441A800BDB73E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96E5C3B21E8441A800BDB73E /* Assets.xcassets */; };
 		96E5C3B61E8441A800BDB73E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96E5C3B41E8441A800BDB73E /* LaunchScreen.storyboard */; };
+		96E5C3C21E844DF300BDB73E /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 96E5C3C11E844DF300BDB73E /* Podfile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1AB75E9FB0BFD3CC0A0A6101 /* Pods_RSSunAndMoonCalcDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RSSunAndMoonCalcDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		96E5C3A81E8441A800BDB73E /* RSSunAndMoonCalcDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RSSunAndMoonCalcDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96E5C3AB1E8441A800BDB73E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		96E5C3AD1E8441A800BDB73E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +25,9 @@
 		96E5C3B21E8441A800BDB73E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		96E5C3B51E8441A800BDB73E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		96E5C3B71E8441A800BDB73E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96E5C3C11E844DF300BDB73E /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		F535A7178CE1FA449766C189 /* Pods-RSSunAndMoonCalcDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RSSunAndMoonCalcDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RSSunAndMoonCalcDemo/Pods-RSSunAndMoonCalcDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		FB6DC8203E9CFA04C422DE56 /* Pods-RSSunAndMoonCalcDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RSSunAndMoonCalcDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-RSSunAndMoonCalcDemo/Pods-RSSunAndMoonCalcDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10E59DF64A55CEA52C225F23 /* Pods_RSSunAndMoonCalcDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +47,8 @@
 			children = (
 				96E5C3AA1E8441A800BDB73E /* RSSunAndMoonCalcDemo */,
 				96E5C3A91E8441A800BDB73E /* Products */,
+				B4C28CFF6DAD9271CA098734 /* Pods */,
+				B08C0551787F849499D1773D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,8 +69,26 @@
 				96E5C3B21E8441A800BDB73E /* Assets.xcassets */,
 				96E5C3B41E8441A800BDB73E /* LaunchScreen.storyboard */,
 				96E5C3B71E8441A800BDB73E /* Info.plist */,
+				96E5C3C11E844DF300BDB73E /* Podfile */,
 			);
 			path = RSSunAndMoonCalcDemo;
+			sourceTree = "<group>";
+		};
+		B08C0551787F849499D1773D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1AB75E9FB0BFD3CC0A0A6101 /* Pods_RSSunAndMoonCalcDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B4C28CFF6DAD9271CA098734 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F535A7178CE1FA449766C189 /* Pods-RSSunAndMoonCalcDemo.debug.xcconfig */,
+				FB6DC8203E9CFA04C422DE56 /* Pods-RSSunAndMoonCalcDemo.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +98,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 96E5C3BA1E8441A800BDB73E /* Build configuration list for PBXNativeTarget "RSSunAndMoonCalcDemo" */;
 			buildPhases = (
+				FEB1691A88D25405F91C4702 /* [CP] Check Pods Manifest.lock */,
 				96E5C3A41E8441A800BDB73E /* Sources */,
 				96E5C3A51E8441A800BDB73E /* Frameworks */,
 				96E5C3A61E8441A800BDB73E /* Resources */,
+				0CAF0F27694BC8CA44968401 /* [CP] Embed Pods Frameworks */,
+				4000E68202B77C4DB330508A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -91,7 +121,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0820;
-				LastUpgradeCheck = 0820;
+				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = "Sebastien REMY";
 				TargetAttributes = {
 					96E5C3A71E8441A800BDB73E = {
@@ -126,11 +156,60 @@
 			files = (
 				96E5C3B61E8441A800BDB73E /* LaunchScreen.storyboard in Resources */,
 				96E5C3B31E8441A800BDB73E /* Assets.xcassets in Resources */,
+				96E5C3C21E844DF300BDB73E /* Podfile in Resources */,
 				96E5C3B11E8441A800BDB73E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0CAF0F27694BC8CA44968401 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RSSunAndMoonCalcDemo/Pods-RSSunAndMoonCalcDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4000E68202B77C4DB330508A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RSSunAndMoonCalcDemo/Pods-RSSunAndMoonCalcDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FEB1691A88D25405F91C4702 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		96E5C3A41E8441A800BDB73E /* Sources */ = {
@@ -173,7 +252,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -181,7 +262,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -223,7 +308,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -231,7 +318,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -259,6 +350,7 @@
 		};
 		96E5C3BB1E8441A800BDB73E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F535A7178CE1FA449766C189 /* Pods-RSSunAndMoonCalcDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 4Y98QPSCBL;
@@ -272,6 +364,7 @@
 		};
 		96E5C3BC1E8441A800BDB73E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB6DC8203E9CFA04C422DE56 /* Pods-RSSunAndMoonCalcDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 4Y98QPSCBL;
@@ -302,6 +395,7 @@
 				96E5C3BC1E8441A800BDB73E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
