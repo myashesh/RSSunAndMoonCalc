@@ -1,6 +1,6 @@
 # RSSunAndMoonCalc
 
-Sun and Moon calculations in Swift 3.0 under MIT licence
+Sun and Moon calculations in Swift 4.0 (in progress...) under MIT licence
 
 Download Demo project !
 
